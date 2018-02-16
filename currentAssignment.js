@@ -17,8 +17,15 @@ function permAlone(str) {
     var totalPermutations = factorial(str.length);
     var anchorPermutations = totalPermutations/str.length;
 
-    for(i=0;i<anchorPermutations;i++){
-        
+    for(i=0;i<str.length;i++){
+
+        for(j=0;j<anchorPermutations;j++){
+         
+            
+
+            
+        }
+
     }
 
     return permutations;
