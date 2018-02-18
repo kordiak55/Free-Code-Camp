@@ -102,6 +102,7 @@ function permAlone(str) {
             //console.log(JSON.stringify(strCut));
             let boo = anchor.concat(strCut);
             let moo = boo.join('');  
+            console.log(moo);
             permArray.push(moo);
             
         }
@@ -113,6 +114,9 @@ function permAlone(str) {
     console.log(JSON.stringify(permArray))
 
     var thePurged = purgeRepeats(permArray);
+
+    console.log(JSON.stringify(thePurged));
+
     return thePurged.length;
     
 
@@ -121,4 +125,3 @@ function permAlone(str) {
 
   
   console.log(JSON.stringify(permAlone('aaabb')));
-  
