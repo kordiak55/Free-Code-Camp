@@ -9,6 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/currentAssignment.js"
+            //"program": "${workspaceFolder}/currentAssignment.js"
         }
     ]
 }
